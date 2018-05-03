@@ -21,6 +21,9 @@ Each project has its own structure and dependencies and can therefore be built i
 They can be built by running the "make" command in their respective project folders.
 Afterwards, the executable can be found in PROJECT/build/.
 
+## Models
+The models used in the paper are available here: ([Models](https://github.com/dasec/glasses-detection-models))
+
 ## Dependencies
 explicit-glasses-identifier:
 <ul>

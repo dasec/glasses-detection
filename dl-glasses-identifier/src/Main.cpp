@@ -155,10 +155,10 @@ int main(int argc, const char** argv) {
     if (modelFile.empty() || trainedFile.empty() || inputFile.empty() || (inputIsList && rootDirectory.empty()) || mode.empty()) {
         std::cout << "Usage: [PROGRAM] [PARAMETER]" << std::endl;
         std::cout << "Parameter:" << std::endl;
-        std::cout << "--model\t\tPath to the model file" << std::endl;
-        std::cout << "--train\t\tPath to the training file" << std::endl;
-        std::cout << "--input\t\tPath to the histogram file" << std::endl;
-        std::cout << "--list\t\t[OPT] Path to a path list file" << std::endl;
+        std::cout << "--model\t\tPath to the model file (*.prototxt)" << std::endl;
+        std::cout << "--train\t\tPath to the training file (*.caffemodel)" << std::endl;
+        std::cout << "--input\t\tPath to the input image or text file with a list of paths to images" << std::endl;
+        std::cout << "--list\t\t[OPT] specifies that the input is a text file with a list of images" << std::endl;
         std::cout << "--root\t\t[OPT] Root directory for the list paths" << std::endl;
         std::cout << "--threshold\tThreshold for categorisation" << std::endl;
         std::cout << "--mode\t\tscoring or categorisation" << std::endl;
